@@ -1,0 +1,179 @@
+%------------------------
+% Resume Template
+% Author : Asutosh Ghanto
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Asutosh Ghanto}} & Email: \href{mailto:}{asutoshghanto23@gmail.com}\\
+  \href{https://asutoshgha.netlify.app/}{Portfolio: asutoshgha.com} & Mobile:~~~+91-6303530992 \\
+  \href{https://github.com/asutoshgha}{Github: ~~github.com/asutoshgha} \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{~~Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute of Information Technology, Dharwad}{Dharwad, India}
+      {Bachelor of Technology - Computer science ;  GPA: 8.85}{July 2018 - June 2022}
+      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} Operating Systems, Data Structures, Analysis Of Algorithms, Artificial Intelligence, Machine Learning, Networking, Databases}}}
+    \resumeSubHeadingListEnd
+	    
+\vspace{-5pt}
+\section{Skills Summary}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Languages}{~~~~~~Python, C++, SQL, JAVA}
+	\resumeSubItem{Frameworks}{~~~~Scikit, TensorFlow, Keras, Flask}
+	\resumeSubItem{Tools}{~~~~~~~~~~~~~~Docker, GIT, PostgreSQL, MySQL, SQLite}
+	\resumeSubItem{Platforms}{~~~~~~~Linux, Web, Windows, Arduino, Raspberry, AWS}
+	\resumeSubItem{Soft Skills}{~~~~~~~Leadership, Event Management, Writing, Public Speaking, Time Management}
+
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading{SamsungSDS}{Gurgaun}
+    {Software Developer Intern}{Feb 2022 - June 2022}
+    \resumeItemListStart
+        \resumeItem{Java and Springboot}
+          {learned backend topics and worked in implimentation group to improve samsung korea internal website and cleared samsung advanced test in datastructures and algorithms.}
+      \resumeItemListEnd
+\vspace{-5pt}
+    \resumeSubheading
+		{IMD}{Remote}
+		{Datascience Intern (Part-time)}{Nov 2021 -  Jan 2022}
+		\resumeItemListStart
+        \resumeItem{Lightning prediction in bhopal using radar data}
+          {Used clustering algorithms to  cluster thunderstorm clouds using humidity ,wind speed and temperature of clouds as parameters and predict the probability of thunderstorm in an given area. }
+		\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\vspace{-5pt}
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeSubItem{Made an A* visualiser using p5.js)}{used A* algorithm to find path between two points in a grid .\color{blue}\href{https://asutoshgha.github.io/p5jsfun/}{click here}}
+\vspace{2pt}
+\resumeSubItem{Used manim and made cool animation gifs in machine learning concepts.)}{made short gifs for various machine learning algorithms  .\color{blue}\href{https://github.com/asutoshgha/MLtutorials}{click here}}
+\vspace{2pt}
+\resumeSubItem{Image Captioning }{ made an image captioning machine learning model to caption images to text in English .\color{blue}\href{https://github.com/asutoshgha/imagecaptioningproject}{click here}}
+\vspace{2pt}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+\section{Coding Profiles }
+\resumeSubHeadingListStart
+\resumeSubItem{Leetcode}{ solved 150 problems \color{blue} \href{https://leetcode.com/asutoshgha/}{click here}}
+\vspace{2pt}
+\resumeSubItem{CSES}{ solved 41 problems \color{blue} \href{https://cses.fi/user/20944}{click here}}
+\resumeSubItem{Geeks for Geeks}{ solved 78 problems \color{blue} \href{https://auth.geeksforgeeks.org/user/asutoshghanto/profile}{click here}}
+\vspace{2pt}
+
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+%-----------Awards-----------------
+\section{Certifications}
+\begin{description}[font=$\bullet$]
+\item {Cloud Practitioner - AWS cloud [Validation Number: 2XML0D5LEF4QQR3Q] \color{blue}\href{https://aw.certmetrics.com/amazon/public/verification.aspx}{click here to verify}}
+\vspace{-5pt}
+\item {AWS sysops associate (SOA-C02) - \color{blue}\href{https://drive.google.com/file/d/1tjhJLa8DGU8oV-yoTLF_NOfFYBHi2n_O/view}{click here}}
+\vspace{-5pt}
+\item {Introduction to Tensorflow for Artificial Intelligence and machine learning \color{blue}\href{https://www.coursera.org/account/accomplishments/verify/5UJ88DABVDLC}{click here}}
+\vspace{-5pt}
+
+\item {AWS Devops Professional \color{blue}\href{https://drive.google.com/file/d/1AO70ihL5jna9bAA5lj5EAg52IxvSmwEZ/view}{click here}}
+\vspace{-5pt}
+\end{description}
+
+\vspace{-5pt}
+\section{Volunteer Experience}
+  \resumeSubHeadingListStart
+	\resumeSubheading
+    {Former tester at codechef return 0 club}{Dharwad, India}
+    {Conducted online and offline coding contests \& DSA training impacting over 500 students.}{Jan 2020 - Jan 2022}
+\vspace{5pt}
+    % \vspace{10pt}\textbf{\large{Community Experience}}
+    \resumeSubheading
+    {Event Organizer at Google Developers Group Hubli}{Hubli, India}
+    {Organized events for GDG hubli}{Jan 2019 - Jan 2020}
+\vspace{5pt}
+    \resumeSubheading
+    {Coding mentor at Faceprep}{Coimbatore, India}
+    {Conducted online DSA training impacting over 1000 students in VIT ,GITAM etc.}{June 2021 - August 2021}
+\resumeSubHeadingListEnd
+
+\end{document}
